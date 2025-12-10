@@ -1,0 +1,21 @@
+How to Create a .exe File for Your Face Recognition AI Assistant
+----------------------------------------------------------------
+
+1. Open your Project Folder in VS Code.
+2. Run the AI assistant Python file (AI ASSISTANT.py).
+3. Use the menu to capture your face samples.
+4. After capturing, train the model using the same interface.
+5. Test the assistant to ensure it is working correctly.
+
+6. Once everything is Verified, Create the .exe:
+   - Open terminal in VS Code.
+   - Navigate to your Project Directory if needed:
+     cd Path\To\Your\Project Folder
+   - Run the following command:
+     pyinstaller --onefile --add-data "1-DATA;1-DATA" --add-data "3-TRAINER;3-TRAINER" PORTABLE.py
+
+7. The executable (.exe) file will be created in the 'dist' folder: dist\PORTABLE.exe
+
+8. After completing all steps and verifying the `.exe` works correctly, you can delete all other files and folders except the `dist` folder and keep only the `.exe` file for portable use.
+
+Now you can copy the .exe file to a USB drive and run it on any Windows system without installing Python.
