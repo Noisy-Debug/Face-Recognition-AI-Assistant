@@ -1,0 +1,8 @@
+opencv-contrib-python
+pillow
+numpy
+pyttsx3
+SpeechRecognition
+pyautogui
+google-generativeai
+pyinstaller
